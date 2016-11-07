@@ -16,7 +16,7 @@
 			<li><strong>Listing Date:</strong> <span data-ng-bind="job.created | date:'mediumDate'"></span></li>
 			<li><strong>Job Poster:</strong> <span data-ng-bind="job.user.displayName"></span></li>
 			<li><strong>Company Name:</strong> <span data-ng-bind="job.company"></span></li>
-			<li><strong>Hourly Wage:</strong> <span data-ng-bind="job.hourly_wage"></span></li>
+			<li><strong>Hourly Wage:</strong> <span data-ng-bind="job.hourly_wage | currency"></span></li>
 			<li><strong>Requirements:</strong> <span data-ng-bind="job.requirements"></span></li>
 			<li><strong>Contact Email:</strong> <a href="mailto:{{job.contact_email}}"><span data-ng-bind="job.contact_email"></span></a></li>
 		</ul>
