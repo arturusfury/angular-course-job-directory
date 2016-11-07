@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 var users = require('../../app/controllers/users.server.controller'),
-	jobs = require('../../app/controllers/jobs.server.controller');
+    jobs  = require('../../app/controllers/jobs.server.controller');
 
 module.exports = function(app) {
 	// Job Routes
